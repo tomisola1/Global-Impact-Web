@@ -20,6 +20,23 @@ body {
  
 }
 
+.auth-side {
+  background-image: url('/assets/images/onboarding-img.png');
+  background-repeat: no-repeat;
+  background-color: #2D338F;
+  /* width: 381px; */
+  position: fixed;
+  min-height: 100vh;
+}
+
+.login-page {
+  background-image: url('/assets/images/login-image.png');
+  background-repeat: no-repeat;
+  background-color: #2D338F;
+  /* position: fixed; */
+  min-height: 100vh;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
